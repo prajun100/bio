@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(image/mountain.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    /* background-repeat: no-repeat; */
+}
+.hero{
+    width: 476px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+h1{
+    margin-top: 8%;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+h4{
+    margin-top: 8%;
+    font-size: 10px;
+    letter-spacing: 7px;
+}
+p{
+    margin-top: 8%;
+    text-align: justify;
+    margin-bottom: 6%;
+}
+.hero li{
+    display: inline;
+    list-style: none;
+    letter-spacing: 25px;
+}
+.hero li a{
+    color:crimson;
+    font-size: 20px;
+}
+@media screen and (max-width:1450px) {
+    body{
+        height: 100vh;
+    }
+    h4{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .hero{
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:520px) {
+    .hero{
+        width: 380px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .hero{
+        width:350px ;
+    }
+    
+}
+@media screen and (max-width:465px) {
+    .hero{
+        width: 330px;
+    }
+    
+}
+@media screen and (max-width:440px) {
+    .hero{
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width:405px) {
+    .hero{
+        width: 280px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width:385px) {
+    .hero{
+        width:260px ;
+    }
+    
+}
+@media screen and (max-width:370px) {
+    .hero{
+        width:250px ;
+    }
+    
+}
+@media screen and (max-width:358px) {
+    .hero{
+        width:240px ;
+    }
+    h1{
+        font-size: 23px;
+    }
+    
+}
+@media screen and (max-width:345px) {
+    .hero{
+        width:230px ;
+    }
+    
+}
+
+
+
